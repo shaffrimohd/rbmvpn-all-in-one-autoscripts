@@ -11,15 +11,15 @@ A lightweight VPN setup tool that automates installation on Debian-based systems
 
 ## Installation & Setup
 
-### Step 1: Prepare environment
-```bash
-apt update
-apt install wget curl binutils openssl gnupg tmux -y
-tmux new -s fn
+  ### Step 1: Prepare environment
+  ```bash
+  apt update
+  apt install wget curl binutils openssl gnupg tmux -y
+  tmux new -s fn
 
-```markdown
-### Step 2: Run installation script
-```bash
-wget -O install.sh "https://rbmvpn.rbm-my.xyz/install.sh"
-chmod +x install.sh
-./install.sh
+
+  ### Step 2: Run installation script
+  ```bash
+  wget -O install.sh "https://rbmvpn.rbm-my.xyz/install.sh"
+  chmod +x install.sh
+  ./install.sh
