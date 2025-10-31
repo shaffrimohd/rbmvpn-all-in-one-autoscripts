@@ -1,12 +1,19 @@
-Step 1:
-apt update ; apt install wget curl binutils openssl gnupg tmux -y ; tmux new -s fn
+# My Awesome VPN Project
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-Step 2:
-Bash
-
-
-wget -O install.sh "https://rbmvpn.rbm-my.xyz/install.sh" ; chmod +x install.sh ; ./install.sh
+A lightweight VPN setup tool that automates installation on Debian-based systems.
 
-If you exit or disconnect during the installation process, simply log in and execute the command.
+## Features
+- Fully automated installation
+- Works on Debian-based VPS
+- Can resume installation if disconnected using `tmux`
 
-tmux attach-session -t fn
+## Installation & Setup
+
+### Step 1: Prepare environment
+```bash
+apt update
+apt install wget curl binutils openssl gnupg tmux -y
+tmux new -s fn
+
