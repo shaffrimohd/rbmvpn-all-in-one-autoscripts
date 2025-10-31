@@ -17,12 +17,17 @@ apt update
 apt install wget curl binutils openssl gnupg tmux -y
 tmux new -s fn
 ```
-### Step 2: Run installation script
+### Step 2: DM Telegram for whitelist ip address
+```bash
+@rbm1095
+```
+### Step 3: Run installation script
 ```bash
 wget -O install.sh "https://rbmvpn.rbm-my.xyz/install.sh"
 chmod +x install.sh
 ./install.sh
 ```
-### Step 3: Reattach tmux session if disconnected
+### Step 4: Reattach tmux session if disconnected
 ```bash
 tmux attach-session -t fn
+```
