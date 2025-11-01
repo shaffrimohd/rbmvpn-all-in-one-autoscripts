@@ -1,4 +1,4 @@
-# RBM Autoscript(All in One) VPN Project
+# RBM Autoscript (All in One) VPN free
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -17,7 +17,7 @@ apt update
 apt install wget curl binutils openssl gnupg tmux -y
 tmux new -s fn
 ```
-### Step 2: DM Telegram for whitelist ip address
+### Step 2: DM Telegram for 30 free whitelist ip address
 ```bash
 @rbm1095
 ```
